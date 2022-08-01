@@ -54,7 +54,7 @@ import { Link } from 'react-router-dom';
               <p>Subscribe our newsletter</p>
               <div className="newsletter">
                 <input type="email" name="" id="" placeholder='Enter your email!'/>
-                <span><i class="ri-send-plane-line"></i></span>
+                <span><i className="ri-send-plane-line"></i></span>
               </div>
             </Col>
 
@@ -67,10 +67,10 @@ import { Link } from 'react-router-dom';
             <Col lg='6' md='6'>
               <div className="social__links d-flex justify-content-end gap-4 aligh-item-center">
                 <p className='m-0'>Follow: </p>
-                <span><Link to='https://www.facebook.com/'><i class="ri-facebook-line"></i></Link></span>
-                <span><Link to='https://github.com/'><i class="ri-github-line"></i></Link></span>
-                <span><Link to='https://www.youtube.com/'><i class="ri-youtube-line"></i></Link></span>
-                <span><Link to='https://www.linkedin.com/'><i class="ri-linkedin-line"></i></Link></span>
+                <span><Link to='https://www.facebook.com/'><i className="ri-facebook-line"></i></Link></span>
+                <span><Link to='https://github.com/'><i className="ri-github-line"></i></Link></span>
+                <span><Link to='https://www.youtube.com/'><i className="ri-youtube-line"></i></Link></span>
+                <span><Link to='https://www.linkedin.com/'><i className="ri-linkedin-line"></i></Link></span>
 
               </div>
             </Col>
