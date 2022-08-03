@@ -27,7 +27,7 @@ const ProductCard = (props) => {
 
       <div className="product__content">
         <h5>
-          <Link to={`/foods/${id}`}>
+          <Link to={`/food/${id}`}>
             {title}
           </Link>
         </h5>
